@@ -1,0 +1,55 @@
+@import "../css/header.css";
+@import "../css/slider.css";
+@import "../css/category.css";
+@import "../css/packet.css";
+@import "../css/offer.css";
+@import "../css/frame.css";
+@import "../css/box.css";
+@import "../css/amazing.css";
+@import "../css/footer.css";
+
+@font-face {
+  font-family: bYekan;
+  src: url("../iranyekanwebregular.e31c09af\ \(1\).woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+css {
+  scroll-behavior: smooth;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: whitesmoke;
+  background: rgb(109, 127, 207);
+}
+
+::selection {
+  color: whitesmoke;
+  background: rgb(109, 127, 207);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+}

@@ -1,0 +1,18 @@
+div.box {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+div.box > div {
+  width: 49%;
+  height: 250px;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+div.box > div > img {
+  width: 650px;
+  height: inherit;
+  display: inline-block;
+  border-radius: 15px;
+}

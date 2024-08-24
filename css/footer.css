@@ -1,0 +1,180 @@
+footer{
+    width: 100%;
+    height: 600px;
+    border-top:1px solid rgb(223, 222, 222) ;
+    border-bottom:1px solid rgb(223, 222, 222) ;
+    display: inline-block;
+}
+footer>div.header{
+    width: 98%;
+    height: 150px;
+    margin: 0px auto;
+
+}
+footer>div.header>div{
+    width: inherit;
+    height: 110px;
+    margin: 0px auto;
+    position: relative;
+}
+footer>div.header>div>div{
+    width: 150px;
+    height:65px;
+    display: inline-block;
+    margin: 25px 10px 10px 0;
+    
+}
+footer>div.header>div>div>img{
+    width: inherit;
+    height: inherit;
+    line-height: 65px;
+}
+footer>div.header>p{
+    font-family: bYekan;
+    font-size: 12px;
+    margin: 10px 12px 0 0;
+    
+}
+footer>div.header>div>div:nth-of-type(2){
+    width: 120px;
+    height: 45px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 8px;
+    
+}
+footer>div.header>div>div:nth-of-type(2)>a{
+    display: block;
+    width: 90px;
+    height: inherit;
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    font-family: bYekan;
+    font-size: 14px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+footer>div.middle{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+footer>div.middle>div{
+    width: 98%;
+    height: 100px;
+    display: inline-block;
+}
+footer>div.middle>div>div{
+    width: 19.3%;
+    height: 100px;
+    display: inline-block;
+}
+footer>div.middle>div>div>img{
+    width:60px;
+    height: 70px;
+    display: inline-block;
+    line-height: 100px;
+}
+footer>div.middle>div>div>p{
+    font-family: bYekan;
+    font-size: 12px;
+}
+footer>div.footer{
+    width: 100%;
+    height: 240px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 60px;
+}
+footer>div.footer>div{
+    width: 98%;
+    height: inherit;
+    display: inline-block;
+}
+footer>div.footer>div>div{
+    width:24% ;
+    height: inherit;
+    margin-right:5px;
+    margin-left:5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+footer>div.footer>div>div>h2{
+    font-family: bYekan;
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+
+}
+footer>div.footer>div>div:nth-last-of-type(1)>div{
+    width: 310px;
+    height: 100px ;
+    margin: 50px auto;
+    display: inline-block;
+    
+    
+
+}
+footer>div.footer>div>div:nth-last-of-type(1)>div>div{
+    width: 78px; 
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin: -2px;
+
+}
+footer>div.footer>div>div:nth-last-of-type(1)>div>div>i{
+    line-height: 100px; 
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+footer>div.footer>div>div>p:nth-of-type(1){
+    font-family: bYekan;
+    font-size: 14px;
+    position: absolute;
+    top: 45px;
+    color: rgb(134, 134, 134);
+}
+footer>div.footer>div>div>p:nth-of-type(2){
+    font-family: bYekan;
+    font-size: 14px;
+    position: absolute;
+    top: 80px;
+    color: rgb(134, 134, 134);
+}
+footer>div.footer>div>div>p:nth-of-type(3){
+    font-family: bYekan;
+    font-size: 14px;
+    position: absolute;
+    top: 110px;
+    color: rgb(134, 134, 134);
+}
+footer>div.footer>div>div>p:nth-of-type(4){
+    font-family: bYekan;
+    font-size: 14px;
+    position: absolute;
+    top: 140px;
+    color: rgb(134, 134, 134);
+}
+footer>div.footer>div>div>p:nth-of-type(5){
+    font-family: bYekan;
+    font-size: 14px;
+    position: absolute;
+    top: 170px;
+    color: rgb(134, 134, 134);
+}
+footer>div.footer>div>div>p:nth-of-type(6){
+    font-family: bYekan;
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    color: rgb(134, 134, 134);
+}

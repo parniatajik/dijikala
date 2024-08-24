@@ -1,0 +1,108 @@
+div.offer{
+    width: 100%;
+    height: auto;
+    margin: 35px auto;
+    border-radius: 9px;
+
+}
+div.offer>div{
+      width: 97%;
+      height: 420px;
+      margin: 0 auto;
+      border-radius: 20px;
+      border: 1px solid lightgray;
+      text-align: center;
+}
+div.offer>div>div{
+    width: 24.6%;
+    height:418px;
+    vertical-align: top;
+    display: inline-block;
+ 
+}
+div.offer>div>div>h4{
+    font-family: bYekan;
+    font-size: 15.5px;
+    margin-top: 15px;
+    margin-left: 195px;
+    color: rgb(43, 43, 43);
+}
+div.offer>div>div>p{
+    font-family: bYekan;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left:220px;
+    color: rgb(126, 123, 123);
+}
+div.offer>div>div:nth-of-type(1){
+    border-left:1px solid lightgray;
+}
+div.offer>div>div:nth-of-type(1)>h4{
+    font-family: bYekan;
+    font-size: 15.5px;
+    margin-top: 15px;
+    margin-left: 200px;
+    color: rgb(43, 43, 43);
+}
+
+div.offer>div>div:nth-of-type(2){
+    border-left:1px solid lightgray;
+}
+div.offer>div>div:nth-of-type(3){
+    border-left:1px solid lightgray;
+
+}
+div.offer>div>div>div{
+    width: 315px;
+    height: 310px;
+    margin: 10px auto;
+}
+div.offer>div>div>div>div.top{
+    width: 309px;
+    height: 152px;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray ;
+}
+div.offer>div>div>div>div.bottom{
+    width: 309px;
+    height: 152px;
+    margin: 0 auto;
+    
+}
+div.offer>div>div>div>div.bottom>div{
+    width: 50%;
+    height:150px;
+    display:inline-block;
+    margin-right: -4px;
+    margin-left: -4px;
+
+}
+div.offer>div>div>div>div.bottom>div:nth-of-type(1){
+    border-left: 1px solid lightgray;
+}
+div.offer>div>div>div>div.top>div{
+    display: inline-block;
+    width: 50%;
+    height:150px;
+    display: inline-block;
+    margin-right: -4px;
+    margin-left: -4px;
+    
+}
+div.offer>div>div>div>div.top>div:nth-of-type(1){
+    border-left: 1px solid lightgray;
+}
+div.offer>div>div>div>div.top>div>img ,div.offer>div>div>div>div.bottom>div>img{
+    width: 138px;
+    height: inherit;
+    display: inline-block;
+    margin-top: 1px;
+}
+div.offer>div>div>p.text{
+    font-family: bYekan;
+    font-size: 14px;
+    color: #54ccdd;
+    font-weight: bolder;
+     cursor: pointer;
+    margin: 0 auto;
+}

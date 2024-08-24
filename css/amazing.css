@@ -1,0 +1,100 @@
+div.amazing {
+  width: 98%;
+  height: 150px;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+}
+div.amazing > div.one {
+  width: 98%;
+  height: 150px;
+  display: inline-block;
+  margin-top: -100px;
+  vertical-align: middle;
+}
+div.amazing > div.one > img {
+  width: 300px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 490px;
+  margin-top: 30px;
+  z-index: 10px;
+  box-sizing: border-box;
+}
+div.amazing > div.two > img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin-right: 800px;
+  margin-top: -70px;
+  z-index: 11px;
+  box-sizing: border-box;
+}
+div.amazing2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+div.amazing2 > div {
+  width: 98%;
+  height: 420px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+div.amazing2 > div > div {
+  width: 24.5%;
+  height: 360px;
+  display: inline-block;
+  margin-left: -1px;
+  margin-right: -1px;
+  vertical-align: top;
+}
+div.amazing2 > div > div:nth-of-type(1),
+div.amazing2 > div > div:nth-of-type(2),
+div.amazing2 > div > div:nth-of-type(3) {
+  border-left: 1px solid lightgray;
+}
+div.amazing2 > div > div > div {
+  width: 310px;
+  height: 120px;
+  display: inline-block;
+  position: relative;
+}
+div.amazing2 > div > div > div > img {
+  width: 100px;
+  height: 90;
+  margin-left: 210px;
+  margin-top: 9px;
+  display: inline-block;
+}
+div.amazing2 > div > div > div > p {
+  font-family: bYekan;
+  font-size: 14px;
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  line-height: 120px;
+}
+div.amazing2 > div > h2 {
+  font-family: bYekan;
+  font-size: 17px;
+  margin: 11px auto;
+}
+div.sunglasses{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+div.sunglasses>img{
+  width: 98%;
+  height: auto;
+  border-radius: 15px;
+}

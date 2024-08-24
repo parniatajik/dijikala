@@ -1,0 +1,30 @@
+div.frame {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+div.frame > div {
+  width: 99%;
+  height: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+div.frame > div > div.box {
+  width: 23.4%;
+  height: inherit;
+  display: inline-block;
+  border-radius: 16px;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 8px;
+}
+div.frame > div > div.box > img {
+  width: 310px;
+  height:280;
+  display: inline-block;
+  border-radius: 25px;
+
+}
